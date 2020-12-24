@@ -36,8 +36,8 @@ if &background == 'light'
   hi DiffDelete cterm=NONE ctermbg=181 ctermfg=89 gui=NONE guibg=#e3d2da guifg=#70415e
   hi DiffText cterm=NONE ctermbg=73 ctermfg=24 gui=NONE guibg=#acc5d3 guifg=#33374c
   hi Directory ctermfg=31 guifg=#3f83a6
-  hi Error ctermbg=254 ctermfg=125 guibg=#e8e9ec guifg=#cc517a
-  hi ErrorMsg ctermbg=254 ctermfg=125 guibg=#e8e9ec guifg=#cc517a
+  hi Error ctermbg=NONE ctermfg=125 guibg=NONE guifg=#cc517a
+  hi ErrorMsg ctermbg=NONE ctermfg=125 guibg=NONE guifg=#cc517a
   hi WarningMsg ctermbg=254 ctermfg=125 guibg=#e8e9ec guifg=#cc517a
   hi EndOfBuffer ctermbg=254 ctermfg=251 guibg=#e8e9ec guifg=#cbcfda
   hi NonText ctermbg=254 ctermfg=251 guibg=#e8e9ec guifg=#cbcfda
@@ -140,14 +140,14 @@ if &background == 'light'
   hi! link ToolbarLine TabLineFill
   hi! link cssBraces Delimiter
   hi! link cssClassName Special
-  hi! link cssClassNameDot Normal
+  hi cssClassNameDot Normal ctermfg=237 guifg=#33374c
   hi! link cssPseudoClassId Special
   hi! link cssTagName Statement
   hi! link helpHyperTextJump Constant
   hi! link htmlArg Constant
   hi! link htmlEndTag Statement
   hi! link htmlTag Statement
-  hi! link jsonQuote Normal
+  hi jsonQuote Normal ctermfg=237 guifg=#33374c
   hi! link phpVarSelector Identifier
   hi! link pythonFunction Title
   hi! link rubyDefine Statement
@@ -155,21 +155,21 @@ if &background == 'light'
   hi! link rubyInterpolationDelimiter String
   hi! link rubySharpBang Comment
   hi! link rubyStringDelimiter String
-  hi! link rustFuncCall Normal
+  hi rustFuncCall Normal ctermfg=237 guifg=#33374c
   hi! link rustFuncName Title
   hi! link rustType Constant
   hi! link sassClass Special
-  hi! link shFunction Normal
+  hi shFunction Normal ctermfg=237 guifg=#33374c
   hi! link vimContinue Comment
   hi! link vimFuncSID vimFunction
-  hi! link vimFuncVar Normal
+  hi vimFuncVar Normal ctermfg=237 guifg=#33374c
   hi! link vimFunction Title
   hi! link vimGroup Statement
   hi! link vimHiGroup Statement
   hi! link vimHiTerm Identifier
   hi! link vimMapModKey Special
   hi! link vimOption Identifier
-  hi! link vimVar Normal
+  hi vimVar Normal ctermfg=237 guifg=#33374c
   hi! link xmlAttrib Constant
   hi! link xmlAttribPunct Statement
   hi! link xmlEndTag Statement
@@ -180,7 +180,7 @@ if &background == 'light'
   hi! link CtrlPPrtCursor Cursor
   hi! link CtrlPMatch Title
   hi! link CtrlPMode2 StatusLine
-  hi! link deniteMatched Normal
+  hi deniteMatched Normal ctermfg=237 guifg=#33374c
   hi! link deniteMatchedChar Title
   hi! link elixirBlockDefinition Statement
   hi! link elixirDefine Statement
@@ -190,25 +190,25 @@ if &background == 'light'
   hi! link elixirExceptionDefine Statement
   hi! link elixirFunctionDeclaration Title
   hi! link elixirKeyword Statement
-  hi! link elixirModuleDeclaration Normal
+  hi elixirModuleDeclaration Normal ctermfg=237 guifg=#33374c
   hi! link elixirModuleDefine Statement
   hi! link elixirPrivateDefine Statement
   hi! link elixirStringDelimiter String
-  hi! link jsFlowMaybe Normal
-  hi! link jsFlowObject Normal
+  hi jsFlowMaybe Normal ctermfg=237 guifg=#33374c
+  hi jsFlowObject Normal ctermfg=237 guifg=#33374c
   hi! link jsFlowType PreProc
-  hi! link graphqlName Normal
-  hi! link graphqlOperator Normal
+  hi graphqlName Normal ctermfg=237 guifg=#33374c
+  hi graphqlOperator Normal ctermfg=237 guifg=#33374c
   hi! link gitmessengerHash Comment
   hi! link gitmessengerHeader Statement
   hi! link gitmessengerHistory Constant
   hi! link jsArrowFunction Operator
-  hi! link jsClassDefinition Normal
+  hi jsClassDefinition Normal ctermfg=237 guifg=#33374c
   hi! link jsClassFuncName Title
   hi! link jsExport Statement
   hi! link jsFuncName Title
   hi! link jsFutureKeys Statement
-  hi! link jsFuncCall Normal
+  hi jsFuncCall Normal ctermfg=237 guifg=#33374c
   hi! link jsGlobalObjects Statement
   hi! link jsModuleKeywords Statement
   hi! link jsModuleOperators Statement
@@ -224,7 +224,7 @@ if &background == 'light'
   hi! link markdownHeadingDelimiter Comment
   hi! link markdownRule Comment
   hi! link ngxDirective Statement
-  hi! link plug1 Normal
+  hi plug1 Normal ctermfg=237 guifg=#33374c
   hi! link plug2 Identifier
   hi! link plugDash Comment
   hi! link plugMessage Special
@@ -241,17 +241,17 @@ if &background == 'light'
   hi! link StartifyPath Comment
   hi! link StartifySection Statement
   hi! link StartifySlash Comment
-  hi! link StartifySpecial Normal
+  hi StartifySpecial Normal ctermfg=237 guifg=#33374c
   hi! link svssBraces Delimiter
-  hi! link swiftIdentifier Normal
-  hi! link typescriptAjaxMethods Normal
+  hi swiftIdentifier Normal ctermfg=237 guifg=#33374c
+  hi typescriptAjaxMethods Normal ctermfg=237 guifg=#33374c
   hi typescriptBraces ctermfg=237 guifg=#33374c
   hi typescriptEndColons ctermfg=237 guifg=#33374c
   hi! link typescriptFuncKeyword Statement
   hi! link typescriptGlobalObjects Statement
-  hi! link typescriptHtmlElemProperties Normal
+  hi typescriptHtmlElemProperties Normal ctermfg=237 guifg=#33374c
   hi! link typescriptIdentifier Statement
-  hi! link typescriptMessage Normal
+  hi typescriptMessage Normal ctermfg=237 guifg=#33374c
   hi! link typescriptNull Constant
   hi typescriptParens ctermfg=237 guifg=#33374c
 
@@ -291,8 +291,8 @@ else
   hi DiffDelete cterm=NONE ctermbg=95 ctermfg=224 gui=NONE guibg=#53343b guifg=#ceb0b6
   hi DiffText cterm=NONE ctermbg=30 ctermfg=195 gui=NONE guibg=#5b7881 guifg=#c6c8d1
   hi Directory ctermfg=109 guifg=#89b8c2
-  hi Error ctermbg=234 ctermfg=203 guibg=#161821 guifg=#e27878
-  hi ErrorMsg ctermbg=234 ctermfg=203 guibg=#161821 guifg=#e27878
+  hi Error ctermbg=NONE ctermfg=203 guibg=NONE guifg=#e27878
+  hi ErrorMsg ctermbg=NONE ctermfg=203 guibg=NONE guifg=#e27878
   hi WarningMsg ctermbg=234 ctermfg=203 guibg=#161821 guifg=#e27878
   hi EndOfBuffer ctermbg=234 ctermfg=236 guibg=#161821 guifg=#242940
   hi NonText ctermbg=234 ctermfg=236 guibg=#161821 guifg=#242940
@@ -395,14 +395,14 @@ else
   hi! link ToolbarLine TabLineFill
   hi! link cssBraces Delimiter
   hi! link cssClassName Special
-  hi! link cssClassNameDot Normal
+  hi cssClassNameDot  ctermfg=252 guifg=#c6c8d1
   hi! link cssPseudoClassId Special
   hi! link cssTagName Statement
   hi! link helpHyperTextJump Constant
   hi! link htmlArg Constant
   hi! link htmlEndTag Statement
   hi! link htmlTag Statement
-  hi! link jsonQuote Normal
+  hi jsonQuote  ctermfg=252 guifg=#c6c8d1
   hi! link phpVarSelector Identifier
   hi! link pythonFunction Title
   hi! link rubyDefine Statement
@@ -410,21 +410,21 @@ else
   hi! link rubyInterpolationDelimiter String
   hi! link rubySharpBang Comment
   hi! link rubyStringDelimiter String
-  hi! link rustFuncCall Normal
+  hi rustFuncCall  ctermfg=252 guifg=#c6c8d1
   hi! link rustFuncName Title
   hi! link rustType Constant
   hi! link sassClass Special
-  hi! link shFunction Normal
+  hi shFunction  ctermfg=252 guifg=#c6c8d1
   hi! link vimContinue Comment
   hi! link vimFuncSID vimFunction
-  hi! link vimFuncVar Normal
+  hi vimFuncVar  ctermfg=252 guifg=#c6c8d1
   hi! link vimFunction Title
   hi! link vimGroup Statement
   hi! link vimHiGroup Statement
   hi! link vimHiTerm Identifier
   hi! link vimMapModKey Special
   hi! link vimOption Identifier
-  hi! link vimVar Normal
+  hi vimVar  ctermfg=252 guifg=#c6c8d1
   hi! link xmlAttrib Constant
   hi! link xmlAttribPunct Statement
   hi! link xmlEndTag Statement
@@ -435,7 +435,7 @@ else
   hi! link CtrlPPrtCursor Cursor
   hi! link CtrlPMatch Title
   hi! link CtrlPMode2 StatusLine
-  hi! link deniteMatched Normal
+  hi deniteMatched  ctermfg=252 guifg=#c6c8d1
   hi! link deniteMatchedChar Title
   hi! link elixirBlockDefinition Statement
   hi! link elixirDefine Statement
@@ -445,25 +445,25 @@ else
   hi! link elixirExceptionDefine Statement
   hi! link elixirFunctionDeclaration Title
   hi! link elixirKeyword Statement
-  hi! link elixirModuleDeclaration Normal
+  hi elixirModuleDeclaration  ctermfg=252 guifg=#c6c8d1
   hi! link elixirModuleDefine Statement
   hi! link elixirPrivateDefine Statement
   hi! link elixirStringDelimiter String
-  hi! link jsFlowMaybe Normal
-  hi! link jsFlowObject Normal
+  hi jsFlowMaybe  ctermfg=252 guifg=#c6c8d1
+  hi jsFlowObject  ctermfg=252 guifg=#c6c8d1
   hi! link jsFlowType PreProc
-  hi! link graphqlName Normal
-  hi! link graphqlOperator Normal
+  hi graphqlName  ctermfg=252 guifg=#c6c8d1
+  hi graphqlOperator  ctermfg=252 guifg=#c6c8d1
   hi! link gitmessengerHash Comment
   hi! link gitmessengerHeader Statement
   hi! link gitmessengerHistory Constant
   hi! link jsArrowFunction Operator
-  hi! link jsClassDefinition Normal
+  hi jsClassDefinition  ctermfg=252 guifg=#c6c8d1
   hi! link jsClassFuncName Title
   hi! link jsExport Statement
   hi! link jsFuncName Title
   hi! link jsFutureKeys Statement
-  hi! link jsFuncCall Normal
+  hi jsFuncCall  ctermfg=252 guifg=#c6c8d1
   hi! link jsGlobalObjects Statement
   hi! link jsModuleKeywords Statement
   hi! link jsModuleOperators Statement
@@ -479,7 +479,7 @@ else
   hi! link markdownHeadingDelimiter Comment
   hi! link markdownRule Comment
   hi! link ngxDirective Statement
-  hi! link plug1 Normal
+  hi plug1  ctermfg=252 guifg=#c6c8d1
   hi! link plug2 Identifier
   hi! link plugDash Comment
   hi! link plugMessage Special
@@ -496,17 +496,17 @@ else
   hi! link StartifyPath Comment
   hi! link StartifySection Statement
   hi! link StartifySlash Comment
-  hi! link StartifySpecial Normal
+  hi StartifySpecial  ctermfg=252 guifg=#c6c8d1
   hi! link svssBraces Delimiter
-  hi! link swiftIdentifier Normal
-  hi! link typescriptAjaxMethods Normal
+  hi swiftIdentifier  ctermfg=252 guifg=#c6c8d1
+  hi typescriptAjaxMethods  ctermfg=252 guifg=#c6c8d1
   hi typescriptBraces ctermfg=252 guifg=#c6c8d1
   hi typescriptEndColons ctermfg=252 guifg=#c6c8d1
   hi! link typescriptFuncKeyword Statement
   hi! link typescriptGlobalObjects Statement
-  hi! link typescriptHtmlElemProperties Normal
+  hi typescriptHtmlElemProperties  ctermfg=252 guifg=#c6c8d1
   hi! link typescriptIdentifier Statement
-  hi! link typescriptMessage Normal
+  hi typescriptMessage  ctermfg=252 guifg=#c6c8d1
   hi! link typescriptNull Constant
   hi typescriptParens ctermfg=252 guifg=#c6c8d1
 
