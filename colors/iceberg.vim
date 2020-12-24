@@ -94,6 +94,28 @@ if &background == 'light'
   hi ALEWarningSign ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
   hi ALEVirtualTextError ctermfg=125 guifg=#cc517a
   hi ALEVirtualTextWarning ctermfg=130 guifg=#c57339
+  hi ALEInfoSign ctermbg=253 ctermfg=25 guibg=#dcdfe7 guifg=#2d539e
+  hi LspErrorText ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
+  hi CocErrorSign ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
+  hi CocErrorFloat ctermbg=NONE ctermfg=125 guibg=NONE guifg=#cc517a
+  hi CocErrorHighlight cterm=underline gui=underline ctermbg=NONE ctermfg=125 guibg=NONE guifg=#cc517a
+  hi LspWarningText ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
+  hi CocWarningSign ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
+  hi CocWarningFloat ctermbg=NONE ctermfg=130 guibg=NONE guifg=#c57339
+  hi CocWarningHighlight cterm=underline gui=underline ctermbg=NONE ctermfg=130 guibg=NONE guifg=#c57339
+  hi LspInformationText ctermbg=253 ctermfg=25 guibg=#dcdfe7 guifg=#2d539e
+  hi CocInfoSign ctermbg=253 ctermfg=25 guibg=#dcdfe7 guifg=#2d539e
+  hi CocInfoFloat ctermbg=NONE ctermfg=25 guibg=NONE guifg=#2d539e
+  hi CocInfoHighlight cterm=underline gui=underline ctermbg=NONE ctermfg=25 guibg=NONE guifg=#2d539e
+  hi LspHintText ctermbg=253 ctermfg=64 guibg=#dcdfe7 guifg=#668e3d
+  hi CocHintSign ctermbg=253 ctermfg=64 guibg=#dcdfe7 guifg=#668e3d
+  hi CocHintFloat ctermbg=NONE ctermfg=64 guibg=NONE guifg=#668e3d
+  hi CocHintHighlight cterm=underline gui=underline ctermbg=NONE ctermfg=64 guibg=NONE guifg=#668e3d
+  hi CocHighlightText cterm=underline gui=underline ctermbg=253 ctermfg=NONE guibg=#d5d9f5 guifg=NONE
+  hi CocExplorerDiagnosticError ctermbg=NONE ctermfg=125 guibg=NONE guifg=#cc517a
+  hi CocExplorerDiagnosticWarning ctermbg=NONE ctermfg=130 guibg=NONE guifg=#c57339
+  hi lspReference cterm=underline gui=underline ctermbg=253 ctermfg=NONE guibg=#d5d9f5 guifg=NONE
+
   hi CtrlPMode1 ctermbg=247 ctermfg=252 guibg=#9fa6c0 guifg=#e8e9ec
   hi EasyMotionShade ctermfg=250 guifg=#bbbecd
   hi EasyMotionTarget ctermfg=64 guifg=#668e3d
@@ -223,15 +245,15 @@ if &background == 'light'
   hi! link svssBraces Delimiter
   hi! link swiftIdentifier Normal
   hi! link typescriptAjaxMethods Normal
-  hi! link typescriptBraces Normal
-  hi! link typescriptEndColons Normal
+  hi typescriptBraces ctermfg=237 guifg=#33374c
+  hi typescriptEndColons ctermfg=237 guifg=#33374c
   hi! link typescriptFuncKeyword Statement
   hi! link typescriptGlobalObjects Statement
   hi! link typescriptHtmlElemProperties Normal
   hi! link typescriptIdentifier Statement
   hi! link typescriptMessage Normal
   hi! link typescriptNull Constant
-  hi! link typescriptParens Normal
+  hi typescriptParens ctermfg=237 guifg=#33374c
 
   if has('nvim')
     let g:terminal_color_0 = '#dcdfe7'
@@ -327,6 +349,28 @@ else
   hi ALEWarningSign ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
   hi ALEVirtualTextError ctermfg=203 guifg=#e27878
   hi ALEVirtualTextWarning ctermfg=216 guifg=#e2a478
+  hi ALEInfoSign ctermbg=235 ctermfg=234 guibg=#1e2132 guifg=#d4d5db
+  hi LspErrorText ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
+  hi CocErrorSign ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
+  hi CocErrorFloat ctermbg=NONE ctermfg=203 guibg=NONE guifg=#e27878
+  hi CocErrorHighlight cterm=underline gui=underline ctermbg=NONE ctermfg=203 guibg=NONE guifg=#e27878
+  hi LspWarningText ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
+  hi CocWarningSign ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
+  hi CocWarningFloat ctermbg=NONE ctermfg=216 guibg=NONE guifg=#e2a478
+  hi CocWarningHighlight cterm=underline gui=underline ctermbg=NONE ctermfg=216 guibg=NONE guifg=#e2a478
+  hi LspInformationText ctermbg=235 ctermfg=234 guibg=#1e2132 guifg=#d4d5db
+  hi CocInfoSign ctermbg=235 ctermfg=234 guibg=#1e2132 guifg=#d4d5db
+  hi CocInfoFloat ctermbg=NONE ctermfg=234 guibg=NONE guifg=#d4d5db
+  hi CocInfoHighlight cterm=underline gui=underline ctermbg=NONE ctermfg=234 guibg=NONE guifg=#d4d5db
+  hi LspHintText ctermbg=235 ctermfg=110 guibg=#1e2132 guifg=#84a0c6
+  hi CocHintSign ctermbg=235 ctermfg=110 guibg=#1e2132 guifg=#84a0c6
+  hi CocHintFloat ctermbg=NONE ctermfg=110 guibg=NONE guifg=#84a0c6
+  hi CocHintHighlight cterm=underline gui=underline ctermbg=NONE ctermfg=110 guibg=NONE guifg=#84a0c6
+  hi CocHighlightText cterm=underline gui=underline ctermbg=235 ctermfg=NONE guibg=#3c4063 guifg=NONE
+  hi CocExplorerDiagnosticError ctermbg=NONE ctermfg=203 guibg=NONE guifg=#e27878
+  hi CocExplorerDiagnosticWarning ctermbg=NONE ctermfg=216 guibg=NONE guifg=#e2a478
+  hi lspReference cterm=underline gui=underline ctermbg=235 ctermfg=NONE guibg=#3c4063 guifg=NONE
+
   hi CtrlPMode1 ctermbg=236 ctermfg=242 guibg=#2e313f guifg=#6b7089
   hi EasyMotionShade ctermfg=239 guifg=#3d425b
   hi EasyMotionTarget ctermfg=150 guifg=#b4be82
@@ -456,15 +500,15 @@ else
   hi! link svssBraces Delimiter
   hi! link swiftIdentifier Normal
   hi! link typescriptAjaxMethods Normal
-  hi! link typescriptBraces Normal
-  hi! link typescriptEndColons Normal
+  hi typescriptBraces ctermfg=252 guifg=#c6c8d1
+  hi typescriptEndColons ctermfg=252 guifg=#c6c8d1
   hi! link typescriptFuncKeyword Statement
   hi! link typescriptGlobalObjects Statement
   hi! link typescriptHtmlElemProperties Normal
   hi! link typescriptIdentifier Statement
   hi! link typescriptMessage Normal
   hi! link typescriptNull Constant
-  hi! link typescriptParens Normal
+  hi typescriptParens ctermfg=252 guifg=#c6c8d1
 
   if has('nvim')
     let g:terminal_color_0 = '#1e2132'
