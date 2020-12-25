@@ -140,14 +140,14 @@ if &background == 'light'
   hi! link ToolbarLine TabLineFill
   hi! link cssBraces Delimiter
   hi! link cssClassName Special
-  hi cssClassNameDot Normal ctermfg=237 guifg=#33374c
+  hi cssClassNameDot ctermfg=237 guifg=#33374c
   hi! link cssPseudoClassId Special
   hi! link cssTagName Statement
   hi! link helpHyperTextJump Constant
   hi! link htmlArg Constant
   hi! link htmlEndTag Statement
   hi! link htmlTag Statement
-  hi jsonQuote Normal ctermfg=237 guifg=#33374c
+  hi jsonQuote ctermfg=237 guifg=#33374c
   hi! link phpVarSelector Identifier
   hi! link pythonFunction Title
   hi! link rubyDefine Statement
@@ -155,21 +155,21 @@ if &background == 'light'
   hi! link rubyInterpolationDelimiter String
   hi! link rubySharpBang Comment
   hi! link rubyStringDelimiter String
-  hi rustFuncCall Normal ctermfg=237 guifg=#33374c
+  hi rustFuncCall ctermfg=237 guifg=#33374c
   hi! link rustFuncName Title
   hi! link rustType Constant
   hi! link sassClass Special
-  hi shFunction Normal ctermfg=237 guifg=#33374c
+  hi shFunction ctermfg=237 guifg=#33374c
   hi! link vimContinue Comment
   hi! link vimFuncSID vimFunction
-  hi vimFuncVar Normal ctermfg=237 guifg=#33374c
+  hi vimFuncVar ctermfg=237 guifg=#33374c
   hi! link vimFunction Title
   hi! link vimGroup Statement
   hi! link vimHiGroup Statement
   hi! link vimHiTerm Identifier
   hi! link vimMapModKey Special
   hi! link vimOption Identifier
-  hi vimVar Normal ctermfg=237 guifg=#33374c
+  hi vimVar ctermfg=237 guifg=#33374c
   hi! link xmlAttrib Constant
   hi! link xmlAttribPunct Statement
   hi! link xmlEndTag Statement
@@ -180,7 +180,7 @@ if &background == 'light'
   hi! link CtrlPPrtCursor Cursor
   hi! link CtrlPMatch Title
   hi! link CtrlPMode2 StatusLine
-  hi deniteMatched Normal ctermfg=237 guifg=#33374c
+  hi deniteMatched ctermfg=237 guifg=#33374c
   hi! link deniteMatchedChar Title
   hi! link elixirBlockDefinition Statement
   hi! link elixirDefine Statement
@@ -190,25 +190,25 @@ if &background == 'light'
   hi! link elixirExceptionDefine Statement
   hi! link elixirFunctionDeclaration Title
   hi! link elixirKeyword Statement
-  hi elixirModuleDeclaration Normal ctermfg=237 guifg=#33374c
+  hi elixirModuleDeclaration ctermfg=237 guifg=#33374c
   hi! link elixirModuleDefine Statement
   hi! link elixirPrivateDefine Statement
   hi! link elixirStringDelimiter String
-  hi jsFlowMaybe Normal ctermfg=237 guifg=#33374c
-  hi jsFlowObject Normal ctermfg=237 guifg=#33374c
+  hi jsFlowMaybe ctermfg=237 guifg=#33374c
+  hi jsFlowObject ctermfg=237 guifg=#33374c
   hi! link jsFlowType PreProc
-  hi graphqlName Normal ctermfg=237 guifg=#33374c
-  hi graphqlOperator Normal ctermfg=237 guifg=#33374c
+  hi graphqlName ctermfg=237 guifg=#33374c
+  hi graphqlOperator ctermfg=237 guifg=#33374c
   hi! link gitmessengerHash Comment
   hi! link gitmessengerHeader Statement
   hi! link gitmessengerHistory Constant
   hi! link jsArrowFunction Operator
-  hi jsClassDefinition Normal ctermfg=237 guifg=#33374c
+  hi jsClassDefinition ctermfg=237 guifg=#33374c
   hi! link jsClassFuncName Title
   hi! link jsExport Statement
   hi! link jsFuncName Title
   hi! link jsFutureKeys Statement
-  hi jsFuncCall Normal ctermfg=237 guifg=#33374c
+  hi jsFuncCall ctermfg=237 guifg=#33374c
   hi! link jsGlobalObjects Statement
   hi! link jsModuleKeywords Statement
   hi! link jsModuleOperators Statement
@@ -224,7 +224,7 @@ if &background == 'light'
   hi! link markdownHeadingDelimiter Comment
   hi! link markdownRule Comment
   hi! link ngxDirective Statement
-  hi plug1 Normal ctermfg=237 guifg=#33374c
+  hi plug1 ctermfg=237 guifg=#33374c
   hi! link plug2 Identifier
   hi! link plugDash Comment
   hi! link plugMessage Special
@@ -241,17 +241,17 @@ if &background == 'light'
   hi! link StartifyPath Comment
   hi! link StartifySection Statement
   hi! link StartifySlash Comment
-  hi StartifySpecial Normal ctermfg=237 guifg=#33374c
+  hi StartifySpecial ctermfg=237 guifg=#33374c
   hi! link svssBraces Delimiter
-  hi swiftIdentifier Normal ctermfg=237 guifg=#33374c
-  hi typescriptAjaxMethods Normal ctermfg=237 guifg=#33374c
+  hi swiftIdentifier ctermfg=237 guifg=#33374c
+  hi typescriptAjaxMethods ctermfg=237 guifg=#33374c
   hi typescriptBraces ctermfg=237 guifg=#33374c
   hi typescriptEndColons ctermfg=237 guifg=#33374c
   hi! link typescriptFuncKeyword Statement
   hi! link typescriptGlobalObjects Statement
-  hi typescriptHtmlElemProperties Normal ctermfg=237 guifg=#33374c
+  hi typescriptHtmlElemProperties ctermfg=237 guifg=#33374c
   hi! link typescriptIdentifier Statement
-  hi typescriptMessage Normal ctermfg=237 guifg=#33374c
+  hi typescriptMessage ctermfg=237 guifg=#33374c
   hi! link typescriptNull Constant
   hi typescriptParens ctermfg=237 guifg=#33374c
 
