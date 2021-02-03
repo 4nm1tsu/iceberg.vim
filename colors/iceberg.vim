@@ -107,7 +107,7 @@ if &background == 'light'
   hi LspInformationText ctermbg=253 ctermfg=25 guibg=#dcdfe7 guifg=#2d539e
   hi CocInfoSign ctermbg=253 ctermfg=25 guibg=#dcdfe7 guifg=#2d539e
   hi CocInfoFloat ctermbg=NONE ctermfg=25 guibg=NONE guifg=#2d539e
-  hi CocInfoHighlight cterm=underline gui=underline ctermbg=NONE ctermfg=25 guibg=NONE guifg=#2d539e
+  hi CocInfoHighlight cterm=underline gui=underline ctermbg=NONE guibg=NONE
   hi LspHintText ctermbg=253 ctermfg=64 guibg=#dcdfe7 guifg=#668e3d
   hi CocHintSign ctermbg=253 ctermfg=64 guibg=#dcdfe7 guifg=#668e3d
   hi CocHintFloat ctermbg=NONE ctermfg=64 guibg=NONE guifg=#668e3d
@@ -363,7 +363,7 @@ else
   hi LspInformationText ctermbg=235 ctermfg=234 guibg=#1e2132 guifg=#d4d5db
   hi CocInfoSign ctermbg=235 ctermfg=234 guibg=#1e2132 guifg=#d4d5db
   hi CocInfoFloat ctermbg=NONE ctermfg=234 guibg=NONE guifg=#d4d5db
-  hi CocInfoHighlight cterm=underline gui=underline ctermbg=NONE ctermfg=234 guibg=NONE guifg=#d4d5db
+  hi CocInfoHighlight cterm=underline gui=underline ctermbg=NONE guibg=NONE
   hi LspHintText ctermbg=235 ctermfg=110 guibg=#1e2132 guifg=#84a0c6
   hi CocHintSign ctermbg=235 ctermfg=110 guibg=#1e2132 guifg=#84a0c6
   hi CocHintFloat ctermbg=NONE ctermfg=110 guibg=NONE guifg=#84a0c6
