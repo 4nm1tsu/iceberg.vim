@@ -112,7 +112,7 @@ if &background == 'light'
   hi CocHintSign ctermbg=253 ctermfg=64 guibg=#dcdfe7 guifg=#668e3d
   hi CocHintFloat ctermbg=NONE ctermfg=64 guibg=NONE guifg=#668e3d
   hi CocHintHighlight cterm=underline gui=underline ctermbg=NONE ctermfg=64 guibg=NONE guifg=#668e3d
-  hi CocHighlightText cterm=underline gui=underline ctermbg=253 ctermfg=NONE guibg=#d5d9f5 guifg=NONE
+  hi CocHighlightText cterm=NONE gui=NONE ctermbg=253 ctermfg=NONE guibg=#d5d9f5 guifg=NONE
   hi CocExplorerDiagnosticError ctermbg=NONE ctermfg=125 guibg=NONE guifg=#cc517a
   hi CocExplorerDiagnosticWarning ctermbg=NONE ctermfg=130 guibg=NONE guifg=#c57339
   hi lspReference cterm=underline gui=underline ctermbg=253 ctermfg=NONE guibg=#d5d9f5 guifg=NONE
@@ -368,7 +368,7 @@ else
   hi CocHintSign ctermbg=235 ctermfg=110 guibg=#1e2132 guifg=#84a0c6
   hi CocHintFloat ctermbg=NONE ctermfg=110 guibg=NONE guifg=#84a0c6
   hi CocHintHighlight cterm=underline gui=underline ctermbg=NONE ctermfg=110 guibg=NONE guifg=#84a0c6
-  hi CocHighlightText cterm=underline gui=underline ctermbg=235 ctermfg=NONE guibg=#3c4063 guifg=NONE
+  hi CocHighlightText cterm=NONE gui=NONE ctermbg=235 ctermfg=NONE guibg=#3c4063 guifg=NONE
   hi CocExplorerDiagnosticError ctermbg=NONE ctermfg=203 guibg=NONE guifg=#e27878
   hi CocExplorerDiagnosticWarning ctermbg=NONE ctermfg=216 guibg=NONE guifg=#e2a478
   hi lspReference cterm=underline gui=underline ctermbg=235 ctermfg=NONE guibg=#3c4063 guifg=NONE
