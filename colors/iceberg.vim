@@ -96,6 +96,7 @@ if &background == 'light'
   hi ALEVirtualTextError ctermfg=125 guifg=#cc517a
   hi ALEVirtualTextWarning ctermfg=130 guifg=#c57339
   hi ALEInfoSign ctermbg=253 ctermfg=25 guibg=#dcdfe7 guifg=#2d539e
+  hi ALEVirtualTextInfo ctermfg=25 guifg=#2d539e
   hi LspErrorText ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
   hi CocErrorSign ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
   hi CocErrorFloat ctermbg=NONE ctermfg=125 guibg=NONE guifg=#cc517a
@@ -352,6 +353,7 @@ else
   hi ALEVirtualTextError ctermfg=203 guifg=#e27878
   hi ALEVirtualTextWarning ctermfg=216 guifg=#e2a478
   hi ALEInfoSign ctermbg=235 ctermfg=234 guibg=#1e2132 guifg=#d4d5db
+  hi ALEVirtualTextInfo ctermfg=234 guifg=#d4d5db
   hi LspErrorText ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
   hi CocErrorSign ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
   hi CocErrorFloat ctermbg=NONE ctermfg=203 guibg=NONE guifg=#e27878
