@@ -298,7 +298,7 @@ else
   hi WarningMsg ctermbg=234 ctermfg=203 guibg=#161821 guifg=#e27878
   hi EndOfBuffer ctermfg=236 guifg=#242940
   hi NonText ctermfg=236 guifg=#242940
-  hi Whitespace ctermfg=236 guifg=#242940
+  hi Whitespace ctermfg=236 guifg=#3b425e
   hi Folded ctermbg=235 ctermfg=245 guibg=#1e2132 guifg=#686f9a
   hi FoldColumn ctermbg=235 ctermfg=239 guibg=#1e2132 guifg=#444b71
   hi Function ctermfg=110 guifg=#84a0c6
