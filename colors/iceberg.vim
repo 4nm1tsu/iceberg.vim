@@ -91,12 +91,20 @@ if &background == 'light'
   hi WildMenu ctermbg=235 ctermfg=252 guibg=#32364c guifg=#e8e9ec
   hi diffAdded ctermfg=64 guifg=#668e3d
   hi diffRemoved ctermfg=125 guifg=#cc517a
+  hi ALEError cterm=underline gui=underline ctermbg=NONE ctermfg=125 guibg=NONE guifg=#cc517a
   hi ALEErrorSign ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
+  hi ALEErrorSignLineNr ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
+  hi ALEWarning cterm=underline gui=underline ctermbg=NONE ctermfg=130 guibg=NONE guifg=#c57339
   hi ALEWarningSign ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
+  hi ALEWarningSignLineNr ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
   hi ALEVirtualTextError ctermfg=125 guifg=#cc517a
   hi ALEVirtualTextWarning ctermfg=130 guifg=#c57339
+  hi ALEInfo cterm=underline gui=underline ctermbg=NONE ctermfg=25 guibg=NONE guifg=#2d539e
   hi ALEInfoSign ctermbg=253 ctermfg=25 guibg=#dcdfe7 guifg=#2d539e
+  hi ALEInfoSignLineNr ctermbg=253 ctermfg=25 guibg=#dcdfe7 guifg=#2d539e
   hi ALEVirtualTextInfo ctermfg=25 guifg=#2d539e
+  hi! link ALEStyleErrorSignLineNr ALEErrorSignLineNr
+  hi! link ALEStyleWarningSignLineNr ALEWarningSignLineNr
   hi LspErrorText ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
   hi CocErrorSign ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
   hi CocErrorFloat ctermbg=NONE ctermfg=125 guibg=NONE guifg=#cc517a
@@ -348,12 +356,20 @@ else
   hi WildMenu ctermbg=255 ctermfg=234 guibg=#d4d5db guifg=#17171b
   hi diffAdded ctermfg=150 guifg=#b4be82
   hi diffRemoved ctermfg=203 guifg=#e27878
+  hi ALEError cterm=underline gui=underline ctermbg=NONE ctermfg=203 guibg=NONE guifg=#e27878
   hi ALEErrorSign ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
+  hi ALEErrorSignLineNr ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
+  hi ALEWarning cterm=underline gui=underline ctermbg=NONE ctermfg=216 guibg=NONE guifg=#e2a478
   hi ALEWarningSign ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
+  hi ALEWarningSignLineNr ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
   hi ALEVirtualTextError ctermfg=203 guifg=#e27878
   hi ALEVirtualTextWarning ctermfg=216 guifg=#e2a478
+  hi ALEInfo cterm=underline gui=underline ctermbg=NONE ctermfg=234 guibg=NONE guifg=#d4d5db
   hi ALEInfoSign ctermbg=235 ctermfg=234 guibg=#1e2132 guifg=#d4d5db
+  hi ALEInfoSignLineNr ctermbg=235 ctermfg=234 guibg=#1e2132 guifg=#d4d5db
   hi ALEVirtualTextInfo ctermfg=234 guifg=#d4d5db
+  hi! link ALEStyleErrorSignLineNr ALEErrorSignLineNr
+  hi! link ALEStyleWarningSignLineNr ALEWarningSignLineNr
   hi LspErrorText ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
   hi CocErrorSign ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
   hi CocErrorFloat ctermbg=NONE ctermfg=203 guibg=NONE guifg=#e27878
