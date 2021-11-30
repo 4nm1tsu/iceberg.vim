@@ -126,6 +126,10 @@ if &background == 'light'
   hi CocExplorerDiagnosticWarning ctermbg=NONE ctermfg=130 guibg=NONE guifg=#c57339
   hi CocFadeOut ctermbg=NONE ctermfg=244 guibg=NONE guifg=#8389a3
   hi lspReference cterm=underline gui=underline ctermbg=253 ctermfg=NONE guibg=#d5d9f5 guifg=NONE
+  hi DapBreakpoint ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
+  hi DapStopped ctermbg=253 ctermfg=64 guibg=#dcdfe7 guifg=#668e3d
+  hi DapLogPoint ctermbg=253 ctermfg=237 guibg=#dcdfe7 guifg=#33374c
+  hi DapBreakpointRejected ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
 
   hi CtrlPMode1 ctermbg=247 ctermfg=252 guibg=#9fa6c0 guifg=#e8e9ec
   hi EasyMotionShade ctermfg=250 guifg=#bbbecd
@@ -392,6 +396,10 @@ else
   hi CocExplorerDiagnosticWarning ctermbg=NONE ctermfg=216 guibg=NONE guifg=#e2a478
   hi CocFadeOut ctermbg=NONE ctermfg=242 guibg=NONE guifg=#6b7089
   hi lspReference cterm=underline gui=underline ctermbg=235 ctermfg=NONE guibg=#3c4063 guifg=NONE
+  hi DapBreakpoint ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
+  hi DapStopped ctermbg=235 ctermfg=150 guibg=#1e2132 guifg=#b4be82
+  hi DapLogPoint ctermbg=235 ctermfg=252 guibg=#1e2132 guifg=#c6c8d1
+  hi DapBreakpointRejected ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
 
   hi CtrlPMode1 ctermbg=236 ctermfg=242 guibg=#2e313f guifg=#6b7089
   hi EasyMotionShade ctermfg=239 guifg=#3d425b
