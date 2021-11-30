@@ -124,6 +124,7 @@ if &background == 'light'
   hi CocHighlightText cterm=NONE gui=NONE ctermbg=253 ctermfg=NONE guibg=#d5d9f5 guifg=NONE
   hi CocExplorerDiagnosticError ctermbg=NONE ctermfg=125 guibg=NONE guifg=#cc517a
   hi CocExplorerDiagnosticWarning ctermbg=NONE ctermfg=130 guibg=NONE guifg=#c57339
+  hi CocFadeOut ctermbg=NONE ctermfg=244 guibg=NONE guifg=#8389a3
   hi lspReference cterm=underline gui=underline ctermbg=253 ctermfg=NONE guibg=#d5d9f5 guifg=NONE
 
   hi CtrlPMode1 ctermbg=247 ctermfg=252 guibg=#9fa6c0 guifg=#e8e9ec
@@ -389,6 +390,7 @@ else
   hi CocHighlightText cterm=NONE gui=NONE ctermbg=235 ctermfg=NONE guibg=#3c4063 guifg=NONE
   hi CocExplorerDiagnosticError ctermbg=NONE ctermfg=203 guibg=NONE guifg=#e27878
   hi CocExplorerDiagnosticWarning ctermbg=NONE ctermfg=216 guibg=NONE guifg=#e2a478
+  hi CocFadeOut ctermbg=NONE ctermfg=242 guibg=NONE guifg=#6b7089
   hi lspReference cterm=underline gui=underline ctermbg=235 ctermfg=NONE guibg=#3c4063 guifg=NONE
 
   hi CtrlPMode1 ctermbg=236 ctermfg=242 guibg=#2e313f guifg=#6b7089
