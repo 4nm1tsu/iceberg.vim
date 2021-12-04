@@ -130,6 +130,14 @@ if &background == 'light'
   hi DapStopped ctermbg=253 ctermfg=64 guibg=#dcdfe7 guifg=#668e3d
   hi DapLogPoint ctermbg=253 ctermfg=237 guibg=#dcdfe7 guifg=#33374c
   hi DapBreakpointRejected ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
+  hi DiagnosticError ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
+  hi DiagnosticSignError ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
+  hi DiagnosticWarn ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
+  hi DiagnosticSignWarn ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
+  hi DiagnosticInfo ctermbg=253 ctermfg=25 guibg=#dcdfe7 guifg=#2d539e
+  hi DiagnosticSignInfo ctermbg=253 ctermfg=25 guibg=#dcdfe7 guifg=#2d539e
+  hi DiagnosticHint ctermbg=253 ctermfg=64 guibg=#dcdfe7 guifg=#668e3d
+  hi DiagnosticSignHint ctermbg=253 ctermfg=64 guibg=#dcdfe7 guifg=#668e3d
 
   hi CtrlPMode1 ctermbg=247 ctermfg=252 guibg=#9fa6c0 guifg=#e8e9ec
   hi EasyMotionShade ctermfg=250 guifg=#bbbecd
@@ -400,6 +408,14 @@ else
   hi DapStopped ctermbg=235 ctermfg=150 guibg=#1e2132 guifg=#b4be82
   hi DapLogPoint ctermbg=235 ctermfg=252 guibg=#1e2132 guifg=#c6c8d1
   hi DapBreakpointRejected ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
+  hi DiagnosticError ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
+  hi DiagnosticSignError ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
+  hi DiagnosticWarn ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
+  hi DiagnosticSignWarn ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
+  hi DiagnosticInfo ctermbg=235 ctermfg=234 guibg=#1e2132 guifg=#d4d5db
+  hi DiagnosticSignInfo ctermbg=235 ctermfg=234 guibg=#1e2132 guifg=#d4d5db
+  hi DiagnosticHint ctermbg=235 ctermfg=110 guibg=#1e2132 guifg=#84a0c6
+  hi DiagnosticSignHint ctermbg=235 ctermfg=110 guibg=#1e2132 guifg=#84a0c6
 
   hi CtrlPMode1 ctermbg=236 ctermfg=242 guibg=#2e313f guifg=#6b7089
   hi EasyMotionShade ctermfg=239 guifg=#3d425b
