@@ -5,7 +5,11 @@
 "
 " File:       iceberg.vim
 " Maintainer: cocopon <cocopon@me.com>
+<<<<<<< HEAD
 " Modified:   2020-12-25 11:21+0900
+=======
+" Modified:   2021-12-28 09:50+0900
+>>>>>>> upstream/master
 " License:    MIT
 
 
@@ -89,6 +93,7 @@ if &background == 'light'
   hi Visual ctermbg=251 ctermfg=NONE guibg=#c9cdd7 guifg=NONE
   hi VisualNOS ctermbg=251 ctermfg=NONE guibg=#c9cdd7 guifg=NONE
   hi WildMenu ctermbg=235 ctermfg=252 guibg=#32364c guifg=#e8e9ec
+  hi icebergNormalFg ctermfg=237 guifg=#33374c
   hi diffAdded ctermfg=64 guifg=#668e3d
   hi diffRemoved ctermfg=125 guifg=#cc517a
   hi ALEError cterm=underline gui=underline ctermbg=NONE ctermfg=125 guibg=NONE guifg=#cc517a
@@ -156,7 +161,25 @@ if &background == 'light'
   hi SyntasticStyleErrorSign ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
   hi SyntasticStyleWarningSign ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
   hi SyntasticWarningSign ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
+  hi TSFunction ctermfg=237 guifg=#505695
+  hi TSFunctionBuiltin ctermfg=237 guifg=#505695
+  hi TSFunctionMacro ctermfg=237 guifg=#505695
+  hi TSMethod ctermfg=237 guifg=#505695
+  hi TSURI cterm=underline ctermfg=31 gui=underline guifg=#3f83a6 term=underline
   hi ZenSpace ctermbg=125 guibg=#cc517a
+  hi DiagnosticUnderlineInfo cterm=underline ctermfg=31 gui=underline guisp=#3f83a6 term=underline
+  hi DiagnosticInfo ctermfg=31 guifg=#3f83a6
+  hi DiagnosticSignInfo ctermbg=253 ctermfg=31 guibg=#dcdfe7 guifg=#3f83a6
+  hi DiagnosticUnderlineHint cterm=underline ctermfg=244 gui=underline guisp=#8389a3 term=underline
+  hi DiagnosticHint ctermfg=244 guifg=#8389a3
+  hi DiagnosticSignHint ctermbg=253 ctermfg=244 guibg=#dcdfe7 guifg=#8389a3
+  hi DiagnosticUnderlineWarn cterm=underline ctermfg=130 gui=underline guisp=#c57339 term=underline
+  hi DiagnosticWarn ctermfg=130 guifg=#c57339
+  hi DiagnosticSignWarn ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
+  hi DiagnosticUnderlineError cterm=underline ctermfg=125 gui=underline guisp=#cc517a term=underline
+  hi DiagnosticError ctermfg=125 guifg=#cc517a
+  hi DiagnosticSignError ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
+  hi DiagnosticFloatingHint ctermbg=251 ctermfg=237 guibg=#cad0de guifg=#33374c
   hi icebergALAccentRed ctermfg=125 guifg=#cc517a
   hi! link TermCursor Cursor
   hi! link ToolbarButton TabLineSel
@@ -319,7 +342,7 @@ else
   hi WarningMsg ctermbg=234 ctermfg=203 guibg=#161821 guifg=#e27878
   hi EndOfBuffer ctermfg=236 guifg=#242940
   hi NonText ctermfg=236 guifg=#242940
-  hi Whitespace ctermfg=236 guifg=#3b425e
+  hi Whitespace ctermfg=236 guifg=#242940
   hi Folded ctermbg=235 ctermfg=245 guibg=#1e2132 guifg=#686f9a
   hi FoldColumn ctermbg=235 ctermfg=239 guibg=#1e2132 guifg=#444b71
   hi Function ctermfg=110 guifg=#84a0c6
@@ -367,6 +390,7 @@ else
   hi Visual ctermbg=236 ctermfg=NONE guibg=#272c42 guifg=NONE
   hi VisualNOS ctermbg=236 ctermfg=NONE guibg=#272c42 guifg=NONE
   hi WildMenu ctermbg=255 ctermfg=234 guibg=#d4d5db guifg=#17171b
+  hi icebergNormalFg ctermfg=252 guifg=#c6c8d1
   hi diffAdded ctermfg=150 guifg=#b4be82
   hi diffRemoved ctermfg=203 guifg=#e27878
   hi ALEError cterm=underline gui=underline ctermbg=NONE ctermfg=203 guibg=NONE guifg=#e27878
@@ -434,7 +458,25 @@ else
   hi SyntasticStyleErrorSign ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
   hi SyntasticStyleWarningSign ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
   hi SyntasticWarningSign ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
+  hi TSFunction ctermfg=252 guifg=#a3adcb
+  hi TSFunctionBuiltin ctermfg=252 guifg=#a3adcb
+  hi TSFunctionMacro ctermfg=252 guifg=#a3adcb
+  hi TSMethod ctermfg=252 guifg=#a3adcb
+  hi TSURI cterm=underline ctermfg=109 gui=underline guifg=#89b8c2 term=underline
   hi ZenSpace ctermbg=203 guibg=#e27878
+  hi DiagnosticUnderlineInfo cterm=underline ctermfg=109 gui=underline guisp=#89b8c2 term=underline
+  hi DiagnosticInfo ctermfg=109 guifg=#89b8c2
+  hi DiagnosticSignInfo ctermbg=235 ctermfg=109 guibg=#1e2132 guifg=#89b8c2
+  hi DiagnosticUnderlineHint cterm=underline ctermfg=242 gui=underline guisp=#6b7089 term=underline
+  hi DiagnosticHint ctermfg=242 guifg=#6b7089
+  hi DiagnosticSignHint ctermbg=235 ctermfg=242 guibg=#1e2132 guifg=#6b7089
+  hi DiagnosticUnderlineWarn cterm=underline ctermfg=216 gui=underline guisp=#e2a478 term=underline
+  hi DiagnosticWarn ctermfg=216 guifg=#e2a478
+  hi DiagnosticSignWarn ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
+  hi DiagnosticUnderlineError cterm=underline ctermfg=203 gui=underline guisp=#e27878 term=underline
+  hi DiagnosticError ctermfg=203 guifg=#e27878
+  hi DiagnosticSignError ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
+  hi DiagnosticFloatingHint ctermbg=236 ctermfg=251 guibg=#3d425b guifg=#c6c8d1
   hi icebergALAccentRed ctermfg=203 guifg=#e27878
   hi! link TermCursor Cursor
   hi! link ToolbarButton TabLineSel
@@ -577,6 +619,164 @@ else
     let g:terminal_ansi_colors = ['#1e2132', '#e27878', '#b4be82', '#e2a478', '#84a0c6', '#a093c7', '#89b8c2', '#c6c8d1', '#6b7089', '#e98989', '#c0ca8e', '#e9b189', '#91acd1', '#ada0d3', '#95c4ce', '#d2d4de']
   endif
 endif
+
+hi! link TermCursor Cursor
+hi! link ToolbarButton TabLineSel
+hi! link ToolbarLine TabLineFill
+hi! link cssBraces Delimiter
+hi! link cssClassName Special
+hi! link cssClassNameDot icebergNormalFg
+hi! link cssPseudoClassId Special
+hi! link cssTagName Statement
+hi! link helpHyperTextJump Constant
+hi! link htmlArg Constant
+hi! link htmlEndTag Statement
+hi! link htmlTag Statement
+hi! link jsonQuote icebergNormalFg
+hi! link phpVarSelector Identifier
+hi! link pythonFunction Title
+hi! link rubyDefine Statement
+hi! link rubyFunction Title
+hi! link rubyInterpolationDelimiter String
+hi! link rubySharpBang Comment
+hi! link rubyStringDelimiter String
+hi! link rustFuncCall icebergNormalFg
+hi! link rustFuncName Title
+hi! link rustType Constant
+hi! link sassClass Special
+hi! link shFunction icebergNormalFg
+hi! link vimContinue Comment
+hi! link vimFuncSID vimFunction
+hi! link vimFuncVar icebergNormalFg
+hi! link vimFunction Title
+hi! link vimGroup Statement
+hi! link vimHiGroup Statement
+hi! link vimHiTerm Identifier
+hi! link vimMapModKey Special
+hi! link vimOption Identifier
+hi! link vimVar icebergNormalFg
+hi! link xmlAttrib Constant
+hi! link xmlAttribPunct Statement
+hi! link xmlEndTag Statement
+hi! link xmlNamespace Statement
+hi! link xmlTag Statement
+hi! link xmlTagName Statement
+hi! link yamlKeyValueDelimiter Delimiter
+hi! link CtrlPPrtCursor Cursor
+hi! link CtrlPMatch Title
+hi! link CtrlPMode2 StatusLine
+hi! link deniteMatched icebergNormalFg
+hi! link deniteMatchedChar Title
+hi! link elixirBlockDefinition Statement
+hi! link elixirDefine Statement
+hi! link elixirDocSigilDelimiter String
+hi! link elixirDocTest String
+hi! link elixirExUnitMacro Statement
+hi! link elixirExceptionDefine Statement
+hi! link elixirFunctionDeclaration Title
+hi! link elixirKeyword Statement
+hi! link elixirModuleDeclaration icebergNormalFg
+hi! link elixirModuleDefine Statement
+hi! link elixirPrivateDefine Statement
+hi! link elixirStringDelimiter String
+hi! link jsFlowMaybe icebergNormalFg
+hi! link jsFlowObject icebergNormalFg
+hi! link jsFlowType PreProc
+hi! link graphqlName icebergNormalFg
+hi! link graphqlOperator icebergNormalFg
+hi! link gitmessengerHash Comment
+hi! link gitmessengerHeader Statement
+hi! link gitmessengerHistory Constant
+hi! link jsArrowFunction Operator
+hi! link jsClassDefinition icebergNormalFg
+hi! link jsClassFuncName Title
+hi! link jsExport Statement
+hi! link jsFuncName Title
+hi! link jsFutureKeys Statement
+hi! link jsFuncCall icebergNormalFg
+hi! link jsGlobalObjects Statement
+hi! link jsModuleKeywords Statement
+hi! link jsModuleOperators Statement
+hi! link jsNull Constant
+hi! link jsObjectFuncName Title
+hi! link jsObjectKey Identifier
+hi! link jsSuper Statement
+hi! link jsTemplateBraces Special
+hi! link jsUndefined Constant
+hi! link markdownBold Special
+hi! link markdownCode String
+hi! link markdownCodeDelimiter String
+hi! link markdownHeadingDelimiter Comment
+hi! link markdownRule Comment
+hi! link ngxDirective Statement
+hi! link plug1 icebergNormalFg
+hi! link plug2 Identifier
+hi! link plugDash Comment
+hi! link plugMessage Special
+hi! link SignifySignAdd GitGutterAdd
+hi! link SignifySignChange GitGutterChange
+hi! link SignifySignChangeDelete GitGutterChangeDelete
+hi! link SignifySignDelete GitGutterDelete
+hi! link SignifySignDeleteFirstLine SignifySignDelete
+hi! link StartifyBracket Comment
+hi! link StartifyFile Identifier
+hi! link StartifyFooter Constant
+hi! link StartifyHeader Constant
+hi! link StartifyNumber Special
+hi! link StartifyPath Comment
+hi! link StartifySection Statement
+hi! link StartifySlash Comment
+hi! link StartifySpecial icebergNormalFg
+hi! link svssBraces Delimiter
+hi! link swiftIdentifier icebergNormalFg
+hi! link TSAttribute Special
+hi! link TSBoolean Constant
+hi! link TSCharacter Constant
+hi! link TSComment Comment
+hi! link TSConstructor icebergNormalFg
+hi! link TSConditional Statement
+hi! link TSConstant Constant
+hi! link TSConstBuiltin Constant
+hi! link TSConstMacro Constant
+hi! link TSError Error
+hi! link TSException Statement
+hi! link TSField icebergNormalFg
+hi! link TSFloat Constant
+hi! link TSInclude Statement
+hi! link TSKeyword Statement
+hi! link TSKeywordFunction Function
+hi! link TSLabel Special
+hi! link TSNamespace Statement
+hi! link TSNumber Constant
+hi! link TSOperator icebergNormalFg
+hi! link TSParameter icebergNormalFg
+hi! link TSParameterReference icebergNormalFg
+hi! link TSProperty TSField
+hi! link TSPunctDelimiter icebergNormalFg
+hi! link TSPunctBracket icebergNormalFg
+hi! link TSPunctSpecial Special
+hi! link TSRepeat Statement
+hi! link TSString String
+hi! link TSStringRegex String
+hi! link TSStringEscape Special
+hi! link TSTag htmlTagName
+hi! link TSTagDelimiter htmlTagName
+hi! link TSText icebergNormalFg
+hi! link TSTitle Title
+hi! link TSType Type
+hi! link TSTypeBuiltin Type
+hi! link TSVariable icebergNormalFg
+hi! link TSVariableBuiltin Statement
+hi! link typescriptAjaxMethods icebergNormalFg
+hi! link typescriptBraces icebergNormalFg
+hi! link typescriptEndColons icebergNormalFg
+hi! link typescriptFuncKeyword Statement
+hi! link typescriptGlobalObjects Statement
+hi! link typescriptHtmlElemProperties icebergNormalFg
+hi! link typescriptIdentifier Statement
+hi! link typescriptMessage icebergNormalFg
+hi! link typescriptNull Constant
+hi! link typescriptParens icebergNormalFg
 
 if !has('nvim')
   hi! link SpecialKey Whitespace
