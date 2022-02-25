@@ -5,11 +5,7 @@
 "
 " File:       iceberg.vim
 " Maintainer: cocopon <cocopon@me.com>
-<<<<<<< HEAD
-" Modified:   2020-12-25 11:21+0900
-=======
 " Modified:   2021-12-28 09:50+0900
->>>>>>> upstream/master
 " License:    MIT
 
 
