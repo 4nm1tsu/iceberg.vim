@@ -98,12 +98,12 @@ if &background == 'light'
   hi ALEWarning cterm=underline gui=underline ctermbg=NONE ctermfg=130 guibg=NONE guifg=#c57339
   hi ALEWarningSign ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
   hi ALEWarningSignLineNr ctermbg=253 ctermfg=130 guibg=#dcdfe7 guifg=#c57339
-  hi ALEVirtualTextError ctermfg=125 guifg=#cc517a
-  hi ALEVirtualTextWarning ctermfg=130 guifg=#c57339
+  hi! link ALEVirtualTextError LspErrorText
+  hi! link ALEVirtualTextWarning LspWarningText
   hi ALEInfo cterm=underline gui=underline ctermbg=NONE ctermfg=25 guibg=NONE guifg=#2d539e
   hi ALEInfoSign ctermbg=253 ctermfg=25 guibg=#dcdfe7 guifg=#2d539e
   hi ALEInfoSignLineNr ctermbg=253 ctermfg=25 guibg=#dcdfe7 guifg=#2d539e
-  hi ALEVirtualTextInfo ctermfg=25 guifg=#2d539e
+  hi! link ALEVirtualTextInfo LspInformationText
   hi! link ALEStyleErrorSignLineNr ALEErrorSignLineNr
   hi! link ALEStyleWarningSignLineNr ALEWarningSignLineNr
   hi LspErrorText ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
@@ -395,12 +395,12 @@ else
   hi ALEWarning cterm=underline gui=underline ctermbg=NONE ctermfg=216 guibg=NONE guifg=#e2a478
   hi ALEWarningSign ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
   hi ALEWarningSignLineNr ctermbg=235 ctermfg=216 guibg=#1e2132 guifg=#e2a478
-  hi ALEVirtualTextError ctermfg=203 guifg=#e27878
-  hi ALEVirtualTextWarning ctermfg=216 guifg=#e2a478
+  hi! link ALEVirtualTextError LspErrorText
+  hi! link ALEVirtualTextWarning LspWarningText
   hi ALEInfo cterm=underline gui=underline ctermbg=NONE ctermfg=234 guibg=NONE guifg=#d4d5db
   hi ALEInfoSign ctermbg=235 ctermfg=234 guibg=#1e2132 guifg=#d4d5db
   hi ALEInfoSignLineNr ctermbg=235 ctermfg=234 guibg=#1e2132 guifg=#d4d5db
-  hi ALEVirtualTextInfo ctermfg=234 guifg=#d4d5db
+  hi! link ALEVirtualTextInfo LspInformationText
   hi! link ALEStyleErrorSignLineNr ALEErrorSignLineNr
   hi! link ALEStyleWarningSignLineNr ALEWarningSignLineNr
   hi LspErrorText ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
