@@ -107,6 +107,7 @@ if &background == 'light'
   hi! link ALEStyleErrorSignLineNr ALEErrorSignLineNr
   hi! link ALEStyleWarningSignLineNr ALEWarningSignLineNr
   hi LspErrorText ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
+  hi CocSearch ctermbg=NONE ctermfg=64 guibg=NONE guifg=#668e3d
   hi CocErrorSign ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
   hi CocErrorFloat ctermbg=NONE ctermfg=125 guibg=NONE guifg=#cc517a
   hi CocErrorHighlight cterm=underline gui=underline ctermbg=NONE ctermfg=125 guibg=NONE guifg=#cc517a
@@ -404,6 +405,7 @@ else
   hi! link ALEStyleErrorSignLineNr ALEErrorSignLineNr
   hi! link ALEStyleWarningSignLineNr ALEWarningSignLineNr
   hi LspErrorText ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
+  hi CocSearch ctermbg=NONE ctermfg=110 guibg=NONE guifg=#84a0c6
   hi CocErrorSign ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
   hi CocErrorFloat ctermbg=NONE ctermfg=203 guibg=NONE guifg=#e27878
   hi CocErrorHighlight cterm=underline gui=underline ctermbg=NONE ctermfg=203 guibg=NONE guifg=#e27878
