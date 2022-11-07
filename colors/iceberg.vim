@@ -127,6 +127,9 @@ if &background == 'light'
   hi CocExplorerDiagnosticError ctermbg=NONE ctermfg=125 guibg=NONE guifg=#cc517a
   hi CocExplorerDiagnosticWarning ctermbg=NONE ctermfg=130 guibg=NONE guifg=#c57339
   hi CocFadeOut ctermbg=NONE ctermfg=244 guibg=NONE guifg=#8389a3
+  hi CocInlayHint cterm=underline gui=underline ctermfg=244 guifg=#8389a3
+  hi CocInlayHintType cterm=underline gui=underline ctermfg=244 guifg=#8389a3
+  hi CocInlayHintParameter cterm=underline gui=underline ctermfg=244 guifg=#8389a3
   hi lspReference cterm=underline gui=underline ctermbg=253 ctermfg=NONE guibg=#d5d9f5 guifg=NONE
   hi DapBreakpoint ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
   hi DapStopped ctermbg=253 ctermfg=64 guibg=#dcdfe7 guifg=#668e3d
@@ -425,6 +428,9 @@ else
   hi CocExplorerDiagnosticError ctermbg=NONE ctermfg=203 guibg=NONE guifg=#e27878
   hi CocExplorerDiagnosticWarning ctermbg=NONE ctermfg=216 guibg=NONE guifg=#e2a478
   hi CocFadeOut ctermbg=NONE ctermfg=242 guibg=NONE guifg=#6b7089
+  hi CocInlayHint cterm=underline gui=underline ctermfg=242 guifg=#6b7089
+  hi CocInlayHintType cterm=underline gui=underline ctermfg=242 guifg=#6b7089
+  hi CocInlayHintParameter cterm=underline gui=underline ctermfg=242 guifg=#6b7089
   hi lspReference cterm=underline gui=underline ctermbg=235 ctermfg=NONE guibg=#3c4063 guifg=NONE
   hi DapBreakpoint ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
   hi DapStopped ctermbg=235 ctermfg=150 guibg=#1e2132 guifg=#b4be82
