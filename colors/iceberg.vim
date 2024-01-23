@@ -130,6 +130,7 @@ if &background == 'light'
   hi CocInlayHint cterm=underline gui=underline ctermfg=244 guifg=#8389a3
   hi CocInlayHintType cterm=underline gui=underline ctermfg=244 guifg=#8389a3
   hi CocInlayHintParameter cterm=underline gui=underline ctermfg=244 guifg=#8389a3
+  hi CocFloating ctermbg=251 ctermfg=237 guibg=#cad0de guifg=#33374c
   hi lspReference cterm=underline gui=underline ctermbg=253 ctermfg=NONE guibg=#d5d9f5 guifg=NONE
   hi DapBreakpoint ctermbg=253 ctermfg=125 guibg=#dcdfe7 guifg=#cc517a
   hi DapStopped ctermbg=253 ctermfg=64 guibg=#dcdfe7 guifg=#668e3d
@@ -431,6 +432,7 @@ else
   hi CocInlayHint cterm=underline gui=underline ctermfg=242 guifg=#6b7089
   hi CocInlayHintType cterm=underline gui=underline ctermfg=242 guifg=#6b7089
   hi CocInlayHintParameter cterm=underline gui=underline ctermfg=242 guifg=#6b7089
+  hi CocFloating ctermbg=236 ctermfg=251 guibg=#3d425b guifg=#c6c8d1
   hi lspReference cterm=underline gui=underline ctermbg=235 ctermfg=NONE guibg=#3c4063 guifg=NONE
   hi DapBreakpoint ctermbg=235 ctermfg=203 guibg=#1e2132 guifg=#e27878
   hi DapStopped ctermbg=235 ctermfg=150 guibg=#1e2132 guifg=#b4be82
