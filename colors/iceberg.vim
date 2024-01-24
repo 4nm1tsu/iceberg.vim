@@ -144,6 +144,11 @@ if &background == 'light'
   hi DiagnosticSignInfo ctermbg=253 ctermfg=25 guibg=#dcdfe7 guifg=#2d539e
   hi DiagnosticHint ctermbg=253 ctermfg=64 guibg=#dcdfe7 guifg=#668e3d
   hi DiagnosticSignHint ctermbg=253 ctermfg=64 guibg=#dcdfe7 guifg=#668e3d
+  hi TreesitterContext ctermbg=253 guibg=#dcdfe7
+  hi TreesitterContextBottom ctermfg=NONE guifg=NONE
+  hi WinSeparator ctermbg=254 ctermfg=247 guibg=#e8e9ec guifg=#9fa6c0
+  hi NeoTreeFloatBorder ctermbg=250 guifg=250 guibg=#bbbecd guifg=#bbbecd
+  hi NeoTreeTitleBar gui=underline ctermbg=250 ctermfg=237 guibg=#bbbecd guifg=#33374c
 
   hi CtrlPMode1 ctermbg=247 ctermfg=252 guibg=#9fa6c0 guifg=#e8e9ec
   hi EasyMotionShade ctermfg=250 guifg=#bbbecd
@@ -446,6 +451,11 @@ else
   hi DiagnosticSignInfo ctermbg=235 ctermfg=234 guibg=#1e2132 guifg=#d4d5db
   hi DiagnosticHint ctermbg=235 ctermfg=110 guibg=#1e2132 guifg=#84a0c6
   hi DiagnosticSignHint ctermbg=235 ctermfg=110 guibg=#1e2132 guifg=#84a0c6
+  hi TreesitterContext ctermbg=235 guibg=#1e2132
+  hi TreesitterContextBottom ctermfg=NONE guifg=NONE
+  hi WinSeparator ctermbg=234 ctermfg=236 guibg=#161821 guifg=#2e313f
+  hi NeoTreeFloatBorder ctermbg=239 guifg=239 guibg=#3d425b guifg=#3d425b
+  hi NeoTreeTitleBar gui=underline ctermbg=239 ctermfg=252 guibg=#3d425b guifg=#c6c8d1
 
   hi CtrlPMode1 ctermbg=236 ctermfg=242 guibg=#2e313f guifg=#6b7089
   hi EasyMotionShade ctermfg=239 guifg=#3d425b
