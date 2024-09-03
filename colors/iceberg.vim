@@ -41,6 +41,7 @@ if &background == 'light'
   hi WarningMsg ctermbg=254 ctermfg=125 guibg=#e8e9ec guifg=#cc517a
   hi EndOfBuffer ctermfg=251 guifg=#cbcfda
   hi NonText ctermfg=251 guifg=#cbcfda
+  hi GitSignsCurrentLineBlame ctermfg=244 guifg=#8389a3
   hi Whitespace ctermfg=251 guifg=#cbcfda
   hi Folded ctermbg=253 ctermfg=243 guibg=#dcdfe7 guifg=#788098
   hi FoldColumn ctermbg=253 ctermfg=248 guibg=#dcdfe7 guifg=#9fa7bd
@@ -348,6 +349,7 @@ else
   hi WarningMsg ctermbg=234 ctermfg=203 guibg=#161821 guifg=#e27878
   hi EndOfBuffer ctermfg=236 guifg=#242940
   hi NonText ctermfg=236 guifg=#242940
+  hi GitSignsCurrentLineBlame ctermfg=242 guifg=#6b7089
   hi Whitespace ctermfg=236 guifg=#242940
   hi Folded ctermbg=235 ctermfg=245 guibg=#1e2132 guifg=#686f9a
   hi FoldColumn ctermbg=235 ctermfg=239 guibg=#1e2132 guifg=#444b71
