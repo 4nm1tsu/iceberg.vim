@@ -150,6 +150,7 @@ if &background == 'light'
   hi WinSeparator ctermbg=254 ctermfg=247 guibg=#e8e9ec guifg=#9fa6c0
   hi NeoTreeFloatBorder ctermbg=250 guifg=250 guibg=#bbbecd guifg=#bbbecd
   hi NeoTreeTitleBar gui=underline ctermbg=250 ctermfg=237 guibg=#bbbecd guifg=#33374c
+  hi NormalFloat ctermbg=254 ctermfg=237 guibg=#e8e9ec guifg=#33374c " for gen.nvim float window
 
   hi CtrlPMode1 ctermbg=247 ctermfg=252 guibg=#9fa6c0 guifg=#e8e9ec
   hi EasyMotionShade ctermfg=250 guifg=#bbbecd
@@ -458,6 +459,7 @@ else
   hi WinSeparator ctermbg=234 ctermfg=236 guibg=#161821 guifg=#2e313f
   hi NeoTreeFloatBorder ctermbg=239 guifg=239 guibg=#3d425b guifg=#3d425b
   hi NeoTreeTitleBar gui=underline ctermbg=239 ctermfg=252 guibg=#3d425b guifg=#c6c8d1
+  hi NormalFloat ctermbg=234 ctermfg=252 guibg=#161821 guifg=#c6c8d1 " for gen.nvim float window
 
   hi CtrlPMode1 ctermbg=236 ctermfg=242 guibg=#2e313f guifg=#6b7089
   hi EasyMotionShade ctermfg=239 guifg=#3d425b
